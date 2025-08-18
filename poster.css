@@ -115,6 +115,11 @@ ul li {
     font-size: 12px;
   }
 }
+@media (max-width:500px){
+  .social-1{
+    margin-right: 0;
+  }
+}
 @media (max-width: 480px) {
   .email-box {
     gap: 5px;
@@ -278,15 +283,17 @@ ul li {
     padding-top: 60px;
   }
 }
+@media(max-width:509px){
+.name {
+    font-size: 1rem;
+    margin-left: 12px;
+  }
+}
 @media (max-width: 426px) {
   .navbar2 {
     padding-top: 40px;
   }
 
-  .name {
-    font-size: 1rem;
-    margin-left: 12px;
-  }
   .schedule {
     padding: 0px 10px;
   }
@@ -511,7 +518,6 @@ ul li {
   border-bottom: 0.3px solid rgb(229, 229, 229);
   padding-bottom: 20px;
 }
-
 .feature-3,
 .feature-4 {
   margin-top: 30px;
@@ -762,6 +768,13 @@ font-weight: 800;
     .video{
       height:72vh;
     }
+    .num{
+      font-size: 16px;
+    }
+   .facilities .build .flex span{
+      font-size: 12px;
+      font-weight: 500;
+    }
 }
 @media(max-width:426px){
     .video-data .p-1 ,.video-data .p-2{
@@ -788,9 +801,6 @@ font-weight: 800;
     }
   .build .flex span{
     margin: 0;
-  }
-  .num{
-    font-size: 1.5rem;
   }
 }
 @media (max-width:376px){
@@ -985,6 +995,9 @@ font-weight: 800;
       .card-2-data{
         width:100%;
       }
+      .card-2-info{
+        font-size: 14px;
+      }
 }
 @media(max-width:426px){
   .info{
@@ -1102,6 +1115,12 @@ border-radius: 5px;
 }
 .visit:hover{
   background-color: var(--orange);
+}
+@media (max-width:1024px) and (min-width:768px){
+  .visit{
+    max-width:100%;
+    text-align: center;
+  }
 }
 @media(max-width:874px){
   .villas{
